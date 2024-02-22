@@ -1,0 +1,24 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main ()
+{   int marks;
+  cout<<"Please enter you marks ";
+  cin>>marks;
+  if (marks >=70 || marks==100) {
+      cout<<"You scored an A";
+  }
+    if (marks >=50 || marks==69) {
+      cout<<"You scored an B";
+  }
+    if (marks >=29 || marks==49) {
+      cout<<"You scored an C";
+  }
+    if (marks >=18 || marks==28) {
+      cout<<"You scored an D";
+  }
+    if (marks >=0 || marks==17) {
+      cout<<"Prepare for a supp";
+  }
+    return 0;
+}
